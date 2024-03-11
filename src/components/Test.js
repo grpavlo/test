@@ -1,7 +1,7 @@
 import React from 'react';
 import atomize from "@quarkly/atomize";
 
-const Test = props => <div {...props} onClikc={() => {
+const Test = props => <div {...props} onClick={() => {
 	console.log("test");
 }}>
 	Say hello Test df 
