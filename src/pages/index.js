@@ -1,6 +1,6 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Link, Button, Input, Text, Box, Structure } from "@quarkly/widgets";
+import { Theme, Link, Button, Input, Text, Box, Structure, Hr } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
 import { RawHtml, Override } from "@quarkly/components";
@@ -156,6 +156,8 @@ export default (() => {
 			</Override>
 		</Structure>
 		<Components.Test />
+		<Hr min-height="10px" min-width="100%" margin="0px 0px 0px 0px" />
+		<Box min-width="100px" min-height="100px" />
 		<Link
 			font={"--capture"}
 			font-size={"10px"}
